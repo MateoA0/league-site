@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>LOL Champions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/lol_icon.png" sizes="32x32">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="title">
+        League Of Legends<br/>
+        Champions
+    </div>
+    <div class="nav-bar">
+        <a href="index.html" class="active">
+            <div class="nav-bar-animations">
+                HOME
+            </div>
+        </a>
+        <a href="info.html">
+            <div class="nav-bar-animations">
+                INFO
+            </div>
+        </a>
+
+        <div class="search-container">
+            <input type="text" placeholder="Search..." name="search" onkeyup="searchChampions()">
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="items-wrapper">
+            <div class="item-wrapper">
+                <div class="img-background" style="background-image:url(assets/Champions/Aatrox.png)" ;></div>
+                <div class="img-text-wrapper">
+                    <a href="aatrox.html">
+                        <div class="champ-name">
+                            <h1>AATROX</h1>
+                            <h3>THE DARKIN BLADE</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="item-wrapper">
+                <div class="img-background" style="background-image:url(assets/Champions/Ahri.png)" ;></div>
+                <div class="img-text-wrapper">
+                    <a href="ahri.html">
+                        <div class="champ-name">
+                            <h1>AHRI</h1>
+                            <h3>THE NINE-TAILED FOX</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="item-wrapper">
+                <div class="img-background" style="background-image:url(assets/Champions/Akali.png)" ;></div>
+                <div class="img-text-wrapper">
+                    <a href="akali.html">
+                        <div class="champ-name">
+                            <h1>AKALI</h1>
+                            <h3>THE ROGUE ASSASSIN</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="item-wrapper">
+                <div class="img-background" style="background-image:url(assets/Champions/Akshan.png)" ;></div>
+                <div class="img-text-wrapper">
+                    <a href="akshan.html">
+                        <div class="champ-name">
+                            <h1>AKSHAN</h1>
+                            <h3>THE ROGUE SENTINEL</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="scripts/darkenImage.js"></script>
+<script src="scripts/searchChampions.js"></script>
+
+</html>
